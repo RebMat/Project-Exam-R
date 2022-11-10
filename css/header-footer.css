@@ -1,0 +1,11 @@
+header {
+  background-color: white;
+  font-family: Bevellier, Verdana, Geneva, Tahoma, sans-serif;
+  color: #f25430;
+  height: 100px;
+}
+
+footer {
+  background-color: white;
+  height: 250px;
+}
