@@ -40,9 +40,6 @@ header {
 /* Footer */
 
 footer {
-  /* display: flex;
-  flex-direction: column;
-  justify-content: center; */
   display: grid;
   background-color: white;
   height: 250px;
@@ -59,8 +56,18 @@ footer a {
   color: #f25430;
 }
 
+.icon-section {
+  justify-self: center;
+  align-self: center;
+  width: 250px;
+}
+
 .footer-icon {
   max-width: 40px;
   margin: 15px;
   filter: invert(45%) sepia(83%) saturate(3612%) hue-rotate(344deg) brightness(99%) contrast(91%);
+}
+
+footer p {
+  justify-self: center;
 }
