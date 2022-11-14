@@ -1,0 +1,59 @@
+.card {
+  background-color: red;
+  width: 200px;
+  height: 250px;
+}
+/* Recipes List Page */
+
+/* Recipes Specific Page */
+
+.main-recipe-specific {
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  height: 500px;
+}
+
+.main-recipe-specific h1 {
+  grid-row: 1;
+  grid-column: 1 / 3;
+  justify-self: center;
+}
+
+.recipe-img-section {
+  background-color: red;
+}
+
+.recipe-ingredients-section {
+  background-color: yellow;
+}
+
+.recipe-instructions-section {
+  background-color: green;
+  grid-row: 3;
+  grid-column: 1 / 3;
+}
+
+@media screen and (max-width: 700px) {
+  .main-recipe-specific {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+  }
+
+  .main-recipe-specific h1 {
+    grid-area: 1 / 1;
+  }
+
+  .recipe-img-section {
+    grid-area: 2 / 1;
+  }
+
+  .recipe-ingredients-section {
+    grid-area: 3 / 1;
+  }
+
+  .recipe-instructions-section {
+    grid-area: 4 / 1;
+  }
+}
+
+/* @media screen and (max-width: 428px); */
