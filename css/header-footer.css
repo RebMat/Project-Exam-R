@@ -40,8 +40,16 @@ header {
 /* Footer */
 
 footer {
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center; */
+  display: grid;
   background-color: white;
   height: 250px;
+  font-family: forma-djr-banner, sans-serif;
+  font-size: 15px;
+  font-weight: 100;
+  letter-spacing: 1px;
 }
 
 /* Both */
@@ -49,4 +57,10 @@ footer {
 header a,
 footer a {
   color: #f25430;
+}
+
+.footer-icon {
+  max-width: 40px;
+  margin: 15px;
+  filter: invert(45%) sepia(83%) saturate(3612%) hue-rotate(344deg) brightness(99%) contrast(91%);
 }
