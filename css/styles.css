@@ -5,6 +5,12 @@
 
 /* Global Styles */
 
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 body {
   display: grid;
   grid-template-areas:
@@ -19,6 +25,18 @@ main {
   display: grid;
 }
 
+h1 {
+  font-family: Bevellier, Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p {
+  font-family: forma-djr-banner, sans-serif;
+}
+
 a {
   text-decoration: none;
+}
+
+li {
+  list-style: none;
 }
