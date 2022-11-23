@@ -25,8 +25,10 @@ main {
   display: grid;
 }
 
-h1 {
+h1,
+h2 {
   font-family: Bevellier, Verdana, Geneva, Tahoma, sans-serif;
+  color: #f25430;
 }
 
 p {
