@@ -1,7 +1,7 @@
 .main-contact {
   display: flex;
   justify-content: center;
-  margin: 110px 0px;
+  margin: 110px 0;
 }
 
 .contact-section1 {
@@ -95,17 +95,18 @@ textarea::placeholder {
 .submit-button {
   background-color: #f25430;
   color: white;
-  width: 130px;
+  width: 170px;
   text-transform: uppercase;
-  font-family: forma-djr-micro, sans-serif;
-  font-weight: 600;
+  font-family: forma-djr-banner, sans-serif;
+  font-weight: 300;
   font-style: normal;
   font-size: 16px;
-  padding: 12px 30px;
-  margin: 15px 0;
-  letter-spacing: 1.5px;
-  border-radius: 15px;
+  padding: 14px 30px;
+  margin-top: 20px;
+  letter-spacing: 2px;
+  border-radius: 25px;
   border: none;
+  text-align: center;
 }
 
 .submit-button:hover {

@@ -1,5 +1,5 @@
 .main-homepage {
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: auto 440px;
   min-height: 500px;
 }
 
@@ -11,13 +11,63 @@
 
 .hp-img {
   max-width: 500px;
-  margin-top: 30px;
+  margin: 30px 0;
 }
 
 .hp-text-section {
   grid-area: 1 / 2;
   display: grid;
   align-content: space-evenly;
+}
+
+.hp-text1,
+.hp-text2 {
+  display: grid;
+  margin-right: 45px;
+}
+
+.hp-text1 h1,
+.hp-text1 p,
+.hp-text2 p,
+.hp-text2 a {
+  justify-self: end;
+  margin-right: 30px;
+}
+
+.hp-text1 h1 {
+  font-size: 70px;
+  margin-bottom: 15px;
+  letter-spacing: 0.5;
+}
+
+.hp-text1 p,
+.hp-text2 p {
+  font-size: 24px;
+}
+
+.hp-text2 p {
+  width: 268px;
+}
+
+.hp-text2 a {
+  background-color: #f25430;
+  color: white;
+  width: 170px;
+  text-transform: uppercase;
+  font-family: forma-djr-banner, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 16px;
+  padding: 14px 30px;
+  margin-top: 20px;
+  letter-spacing: 2px;
+  border-radius: 25px;
+  border: none;
+  text-align: center;
+}
+
+.hp-text2 a:hover {
+  background-color: #f253305b;
 }
 
 .hp-search-recipe-section {
@@ -33,15 +83,8 @@
   margin-bottom: 15px;
 }
 
-.hp-search-recipe-section button {
-  float: right;
-  padding: 6px 10px;
-  margin-top: 8px;
-  margin-right: 16px;
-  background: #ddd;
-  font-size: 17px;
-  border: none;
-  cursor: pointer;
+.search-icon {
+  width: 18px;
 }
 
 .hp-search-recipe-section input[type="text"] {
