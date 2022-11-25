@@ -13,8 +13,8 @@
 
 .contact-information-box {
   display: grid;
-  grid-template-columns: auto auto;
-  grid-template-rows: 1fr 1fr 1fr 1fr;
+  /* grid-template-columns: auto auto;
+  grid-template-rows: 1fr 1fr 1fr 1fr; */
   padding: 20px 50px 20px 50px;
 }
 
@@ -93,20 +93,22 @@ textarea::placeholder {
 }
 
 .submit-button {
-  background-color: #f25430;
-  color: white;
+  background-color: #f26e50e0;
+  color: black;
   width: 170px;
   text-transform: uppercase;
   font-family: forma-djr-banner, sans-serif;
-  font-weight: 300;
+  font-weight: 400;
   font-style: normal;
-  font-size: 16px;
+  font-size: 19px;
   padding: 14px 30px;
   margin-top: 20px;
   letter-spacing: 2px;
   border-radius: 25px;
   border: none;
   text-align: center;
+  box-shadow: 11px 10px 21px -5px rgba(0, 0, 0, 0.22);
+  -webkit-box-shadow: 11px 10px 21px -5px rgba(0, 0, 0, 0.22);
 }
 
 .submit-button:hover {
@@ -140,11 +142,11 @@ textarea::placeholder {
   }
 
   .info-icon {
-    margin: 10px 0;
+    margin: 15px 0;
   }
 
   .contact-information-box p {
-    margin: 10px 0;
+    margin: 15px 0;
   }
 
   input {

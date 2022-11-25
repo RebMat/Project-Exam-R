@@ -50,20 +50,22 @@
 }
 
 .hp-text2 a {
-  background-color: #f25430;
-  color: white;
+  background-color: #f26e50e0;
+  color: black;
   width: 170px;
   text-transform: uppercase;
   font-family: forma-djr-banner, sans-serif;
-  font-weight: 300;
+  font-weight: 400;
   font-style: normal;
-  font-size: 16px;
+  font-size: 19px;
   padding: 14px 30px;
   margin-top: 20px;
   letter-spacing: 2px;
   border-radius: 25px;
   border: none;
   text-align: center;
+  box-shadow: 11px 10px 21px -5px rgba(0, 0, 0, 0.22);
+  -webkit-box-shadow: 11px 10px 21px -5px rgba(0, 0, 0, 0.22);
 }
 
 .hp-text2 a:hover {
@@ -86,6 +88,13 @@
 .input-icon {
   position: relative;
   z-index: 100;
+}
+.hp-search-recipe-section label {
+  font-family: Bevellier, Verdana, Geneva, Tahoma, sans-serif;
+  color: #f25430;
+  font-weight: 500;
+  font-size: 40px;
+  justify-self: center;
 }
 
 .search-button {
@@ -123,23 +132,95 @@
   margin: 40px 0;
 }
 
-.hp-popular-recepies-section h3 {
+.hp-popular-recepies-section h2 {
   justify-self: center;
   font-size: 40px;
   margin-bottom: 15px;
 }
 
+@media screen and (max-width: 950px) {
+  .main-homepage {
+    grid-template-columns: auto;
+    min-height: 500px;
+  }
+
+  .hp-text1,
+  .hp-text2 {
+    margin-right: 10px;
+  }
+
+  .hp-text1 p,
+  .hp-text2 p {
+    font-size: 20px;
+  }
+
+  .hp-text2 p {
+    width: 224px;
+  }
+
+  .hp-img {
+    max-width: 350px;
+    margin-left: 20px;
+  }
+}
+
 @media screen and (max-width: 700px) {
+  .hp-img {
+    max-width: 250px;
+  }
+
+  .hp-text1 h1 {
+    font-size: 40px;
+  }
+
+  .hp-text1 p,
+  .hp-text2 p {
+    font-size: 16px;
+  }
+
+  .hp-text2 p {
+    width: 179px;
+  }
+}
+
+@media screen and (max-width: 550px) {
   .main-homepage {
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
-  }
-  .hp-image-section {
-    grid-area: 1 / 1;
+    grid-template-rows: auto;
   }
 
   .hp-text-section {
+    grid-area: 1 / 1;
+  }
+
+  .hp-image-section {
     grid-area: 2 / 1;
+  }
+
+  .hp-text1,
+  .hp-text2 {
+    margin-left: 0;
+  }
+
+  .hp-text2 p {
+    margin-top: 20px;
+  }
+
+  .hp-text1 h1,
+  .hp-text1 p,
+  .hp-text2 p,
+  .hp-text2 a {
+    justify-self: center;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .hp-text1 h1 {
+    margin: 30px 0;
+  }
+
+  .hp-text1 p {
+    margin-bottom: 30px;
   }
 
   .hp-search-recipe-section {
