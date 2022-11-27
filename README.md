@@ -1,6 +1,7 @@
 # GOOD MOOD FOOD
 
-*screenshot her*
+![Skjermbilde 2022-11-27 kl  12 22 58](https://user-images.githubusercontent.com/94296711/204132629-dd0a4c7d-8307-4a33-a2a3-f7a0ae342fa9.png)
+
 
 A website called Good Mood Food which helps people find recipes. The site is aimed at people who are interested in eating healthy food, but dont have a lot of time to read recipe books. 
 
