@@ -115,6 +115,14 @@ textarea::placeholder {
   background-color: #f253305b;
 }
 
+.messageSent {
+  font-family: forma-djr-micro, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #f25430;
+  margin-top: 10px;
+}
+
 @media (max-width: 768px) {
   .contact-information-box {
     grid-template-columns: 40px auto;
