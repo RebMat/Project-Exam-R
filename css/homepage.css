@@ -20,6 +20,10 @@
   align-content: space-evenly;
 }
 
+.hp-text1 {
+  margin-bottom: 30px;
+}
+
 .hp-text1,
 .hp-text2 {
   display: grid;
@@ -138,6 +142,60 @@
   margin-bottom: 15px;
 }
 
+.recipe-container {
+  display: grid;
+}
+
+.recipe-card {
+  display: grid;
+  background-color: white;
+  width: 300px;
+  justify-self: center;
+  border-radius: 20px;
+  box-shadow: 11px 10px 21px -5px rgba(0, 0, 0, 0.22);
+  -webkit-box-shadow: 11px 10px 21px -5px rgba(0, 0, 0, 0.22);
+}
+
+.recipe-card a {
+  background-color: #f26e50e0;
+  color: black;
+  width: 170px;
+  text-transform: uppercase;
+  font-family: forma-djr-banner, sans-serif;
+  padding: 14px 30px;
+  margin: 10px 0 20px 0;
+  letter-spacing: 2px;
+  border-radius: 25px;
+  border: none;
+  text-align: center;
+  box-shadow: 11px 10px 21px -5px rgba(0, 0, 0, 0.22);
+  -webkit-box-shadow: 11px 10px 21px -5px rgba(0, 0, 0, 0.22);
+  justify-self: center;
+}
+
+.recipe-card a:hover {
+  background-color: #f253305b;
+}
+
+.meal-img img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.recipe-name {
+  color: black;
+  font-family: forma-djr-banner, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 19px;
+  letter-spacing: 2px;
+  text-align: center;
+  margin: 10px 0;
+}
+
 @media screen and (max-width: 950px) {
   .main-homepage {
     grid-template-columns: auto;
@@ -181,6 +239,10 @@
   .hp-text2 p {
     width: 179px;
   }
+
+  .hp-popular-recepies-section h2 {
+    font-size: 30px;
+  }
 }
 
 @media screen and (max-width: 550px) {
@@ -195,6 +257,10 @@
 
   .hp-image-section {
     grid-area: 2 / 1;
+  }
+
+  .hp-img {
+    margin-left: 0;
   }
 
   .hp-text1,
@@ -219,9 +285,9 @@
     margin: 30px 0;
   }
 
-  .hp-text1 p {
+  /* .hp-text1 p {
     margin-bottom: 30px;
-  }
+  } */
 
   .hp-search-recipe-section {
     grid-area: 3 / 1;
@@ -229,6 +295,14 @@
 
   .hp-popular-recepies-section {
     grid-area: 4 / 1;
+  }
+
+  .hp-popular-recepies-section h2 {
+    font-size: 25px;
+  }
+
+  .recipe-card {
+    width: 260px;
   }
 }
 

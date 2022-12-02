@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <script src="https://kit.fontawesome.com/d29c0b21bc.js" crossorigin="anonymous"></script>
+    <meta name="description" content="Here you can discover many simple and healthy recipes." />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://use.typekit.net/qxo3wwi.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Seach Recipe - GOOD MOOD FOOD</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="nav-branding">
+          <a href="index.html" class="logo">Good Mood Food<span class="logo-dot">.</span></a>
+        </div>
+        <ul class="nav-menu">
+          <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+          <li class="nav-item"><a href="search-recipe.html" class="nav-link activebutton">Search Recipes</a></li>
+          <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </nav>
+    </header>
+    <main class="main-search-recipe">
+      <h1>Search Recipe</h1>
+      <div class="container">
+        <div class="meal-wrapper">
+          <div class="meal-search">
+            <h2 class="title">Find Meals For Your Ingredients</h2>
+            <div class="meal-search-box"></div>
+            <input type="text" class="search-control" placeholder="Enter an ingredient" id="search-input" />
+            <button type="submit" class="search-btn btn" id="search-btn">Search</button>
+          </div>
+
+          <div class="meal-result">
+            <h2 class="title">Your Search Results:</h2>
+            <div id="meal">
+              <!-- meal item -->
+              <!-- <div class="meal-item">
+                <div class="meal-img">
+                  <img src="images/anh-nguyen-kcA-c3f_3FE-unsplash.jpg" alt="food" />
+                </div>
+                <div class="meal-name">
+                  <h3>Potato Chips</h3>
+                  <a href="#" class="recipe-btn">Get recipe</a>
+                </div>
+              </div> -->
+              <!-- end of meal item -->
+            </div>
+          </div>
+
+          <div class="meal-details">
+            <!-- recipe close btn-->
+            <button type="button" class="btn recipe-close-btn" id="recipe-close-btn">Close Recipe</button>
+
+            <!-- meal content -->
+            <div class="meal-details-content">
+              <!-- <h2 class="recipe-title">Meals Name Here</h2>
+              <p class="recipe-category">Category Name</p>
+              <div class="recipe-instruct">
+                <h3>Instruction:</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus necessitatibus expedita modi tempore temporibus consequuntur, explicabo consequatur dignissimos alias illo reprehenderit cupiditate ipsum a culpa saepe, amet repudiandae, itaque sapiente?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex velit voluptates earum quas commodi soluta amet aliquam, reprehenderit alias accusamus!</p>
+              </div>
+              <div class="recipe-meal-img">
+                <img src="images/anh-nguyen-kcA-c3f_3FE-unsplash.jpg" alt="food" />
+              </div>
+              <div class="recipe-link">
+                <a href="#" target="_blank">Watch Video</a>
+              </div> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="icon-section">
+        <a href="https://www.instagram.com/"><img src="images/instagram.svg" alt="instagram icon" class="instagram-icon footer-icon" /></a>
+        <a href="https://twitter.com/"><img src="images/twitter.svg" alt="twitter icon" class="twitter-icon footer-icon" /></a>
+        <a href="https://www.facebook.com/"><img src="images/square-facebook.svg" alt="facebook icon" class="fb-icon footer-icon" /></a>
+      </div>
+      <p>Copyright © Rebecca Mathisen</p>
+    </footer>
+    <script src="js/script.js"></script>
+  </body>
+</html>
