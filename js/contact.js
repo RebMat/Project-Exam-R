@@ -10,8 +10,6 @@ const subjectError = document.querySelector("#subjectError");
 const message = document.querySelector("#message");
 const messageError = document.querySelector("#messageError");
 
-form.addEventListener("submit", submitForm);
-
 function submitForm(event) {
   event.preventDefault();
 
@@ -59,3 +57,5 @@ function submitEmail(email) {
   const patternMatches = regEx.test(email);
   return patternMatches;
 }
+
+form.addEventListener("submit", submitForm);

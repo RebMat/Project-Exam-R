@@ -2,9 +2,11 @@
   min-height: 80vh;
   display: grid;
   grid-template-rows: auto 1fr;
+  margin-bottom: 40px;
 }
 
-.main-search-recipe h1 {
+.main-search-recipe h1,
+.recipe-result-heading {
   justify-self: center;
   margin: 30px 0;
   font-size: 40px;
@@ -14,8 +16,7 @@
   text-align: center;
 }
 
-.recipe-search h2,
-.recipe-result h3 {
+.recipe-search h2 {
   font-weight: 700;
   font-family: forma-djr-banner, sans-serif;
   color: black;
@@ -26,6 +27,16 @@
 
 .recipe-result {
   display: grid;
+  margin: 0 35px;
+}
+
+.recipe-result h3 {
+  margin-top: 40px;
+}
+
+#recipes {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 /* .search-box,
@@ -34,13 +45,15 @@
 } */
 
 .search-box {
-  padding: 1rem;
+  padding: 16px;
   font-size: 1.1rem;
   outline: 0;
-  border: 1px solid black;
+  border: none;
   color: #707070;
   border-top-left-radius: 2rem;
   border-bottom-left-radius: 2rem;
+  box-shadow: 11px 10px 21px -5px rgba(0, 0, 0, 0.22);
+  -webkit-box-shadow: 11px 10px 21px -5px rgba(0, 0, 0, 0.22);
 }
 
 .search-box::placeholder {
@@ -51,20 +64,19 @@
   width: 65px;
   height: 55px;
   /* font-size: 1.8rem; */
-  background-color: orange;
+  background-color: #f26e50e0;
   color: white;
   border: none;
   border-top-right-radius: 2rem;
   border-bottom-right-radius: 2rem;
   transition: all 0.4s linear;
-  -webkit-transition: all 0.4s linear;
-  -moz-transition: all 0.4s linear;
-  -ms-transition: all 0.4s linear;
-  -o-transition: all 0.4s linear;
+  margin-left: -5px;
+  box-shadow: 11px 10px 21px -5px rgba(0, 0, 0, 0.22);
+  -webkit-box-shadow: 11px 10px 21px -5px rgba(0, 0, 0, 0.22);
 }
 
 .search-button:hover {
-  background: yellow;
+  background-color: #f253305b;
 }
 
 /*
