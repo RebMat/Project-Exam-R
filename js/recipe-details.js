@@ -3,11 +3,11 @@ const messageContainer = document.querySelector(".error");
 const loader = document.querySelector(".loader");
 
 const queryString = document.location.search;
-console.log(queryString);
+// console.log(queryString);
 
 const params = new URLSearchParams(queryString);
 const idMeal = params.get("id");
-console.log(params);
+// console.log(params);
 
 const newUrl = "https://www.themealdb.com/api/json/v1/1/lookup.php?i=" + idMeal;
 
@@ -15,10 +15,12 @@ async function getRecipe() {
   try {
     const response = await fetch(newUrl);
     const recipeDetails = await response.json();
-    console.log(recipeDetails);
+    // console.log(recipeDetails);
+
     recipeContainer.innerHTML = "";
 
     document.title = `${recipeDetails.meals[0].strMeal} | GOOD MOOD FOOD`;
+
     recipeContainer.innerHTML += `
     <h1 class="recipe-name">${recipeDetails.meals[0].strMeal}</h1>
     <div class="meal-img-specific">
@@ -59,6 +61,7 @@ async function getRecipe() {
       <p class="ingredient">${recipeDetails.meals[0].strIngredient13}</p>
       <p class="ingredient">${recipeDetails.meals[0].strIngredient14}</p>
       <p class="ingredient">${recipeDetails.meals[0].strIngredient15}</p>
+
      </div>
     </div>
     <div class="instructions-container">

@@ -18,7 +18,7 @@
         </div>
         <ul class="nav-menu">
           <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
-          <li class="nav-item"><a href="search-recipe.html" class="nav-link activebutton">Search Recipes</a></li>
+          <li class="nav-item"><a href="search-recipe.html" class="nav-link activebutton">Search Recipe</a></li>
           <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
         </ul>
         <div class="hamburger">
@@ -30,53 +30,16 @@
     </header>
     <main class="main-search-recipe">
       <h1>Search Recipe</h1>
-      <div class="container">
-        <div class="meal-wrapper">
-          <div class="meal-search">
-            <h2 class="title">Find Meals For Your Ingredients</h2>
-            <div class="meal-search-box"></div>
-            <input type="text" class="search-control" placeholder="Enter an ingredient" id="search-input" />
-            <button type="submit" class="search-btn btn" id="search-btn">Search</button>
-          </div>
-
-          <div class="meal-result">
-            <h2 class="title">Your Search Results:</h2>
-            <div id="meal">
-              <!-- meal item -->
-              <!-- <div class="meal-item">
-                <div class="meal-img">
-                  <img src="images/anh-nguyen-kcA-c3f_3FE-unsplash.jpg" alt="food" />
-                </div>
-                <div class="meal-name">
-                  <h3>Potato Chips</h3>
-                  <a href="#" class="recipe-btn">Get recipe</a>
-                </div>
-              </div> -->
-              <!-- end of meal item -->
-            </div>
-          </div>
-
-          <div class="meal-details">
-            <!-- recipe close btn-->
-            <button type="button" class="btn recipe-close-btn" id="recipe-close-btn">Close Recipe</button>
-
-            <!-- meal content -->
-            <div class="meal-details-content">
-              <!-- <h2 class="recipe-title">Meals Name Here</h2>
-              <p class="recipe-category">Category Name</p>
-              <div class="recipe-instruct">
-                <h3>Instruction:</h3>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus necessitatibus expedita modi tempore temporibus consequuntur, explicabo consequatur dignissimos alias illo reprehenderit cupiditate ipsum a culpa saepe, amet repudiandae, itaque sapiente?</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex velit voluptates earum quas commodi soluta amet aliquam, reprehenderit alias accusamus!</p>
-              </div>
-              <div class="recipe-meal-img">
-                <img src="images/anh-nguyen-kcA-c3f_3FE-unsplash.jpg" alt="food" />
-              </div>
-              <div class="recipe-link">
-                <a href="#" target="_blank">Watch Video</a>
-              </div> -->
-            </div>
-          </div>
+      <div class="meal-container">
+        <div class="recipe-search">
+          <h2>Type in ingredient</h2>
+          <input type="text" class="search-box" placeholder="E.g. Chicken stock.." id="ingredient-input" />
+          <button type="submit" class="search-button btn" id="search-button">Search</button>
+        </div>
+        <div class="recipe-result">
+          <h3>Your Search Results:</h3>
+          <div class="error"></div>
+          <div id="recipes"></div>
         </div>
       </div>
     </main>
@@ -89,5 +52,6 @@
       <p>Copyright © Rebecca Mathisen</p>
     </footer>
     <script src="js/script.js"></script>
+    <script src="js/search.js"></script>
   </body>
 </html>

@@ -10,6 +10,8 @@ const subjectError = document.querySelector("#subjectError");
 const message = document.querySelector("#message");
 const messageError = document.querySelector("#messageError");
 
+form.addEventListener("submit", submitForm);
+
 function submitForm(event) {
   event.preventDefault();
 
@@ -38,13 +40,11 @@ function submitForm(event) {
   }
 }
 
-function submitForm(event) {
-  event.preventDefault();
-  messageContainer.innerHTML = `<p class="messageSent">Your contact form has been sent!</p>`;
-  form.reset();
-}
-
-form.addEventListener("submit", submitForm);
+// function submitForm(event) {
+//   event.preventDefault();
+//   messageContainer.innerHTML = `<p class="messageSent">Your contact form has been sent!</p>`;
+//   form.reset();
+// }
 
 function checkLength(value, len) {
   if (value.trim().length > len) {

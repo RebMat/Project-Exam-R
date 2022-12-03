@@ -46,3 +46,9 @@ a {
 li {
   list-style: none;
 }
+
+.btn {
+  cursor: pointer;
+  outline: 0;
+  font-size: 17px;
+}
