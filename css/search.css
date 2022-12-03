@@ -106,25 +106,3 @@
     width: 200px;
   }
 }
-
-/* @media screen and (min-width: 768px) {
-  #recipes {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 2rem;
-  }
-
-  .meal-item {
-    margin: 0;
-  }
-
-  .meal-details {
-    width: 700px;
-  }
-}
-
-@media screen and (min-width: 992px) {
-  #recipes {
-    grid-template-columns: repeat(3, 1fr);
-  }
-} */

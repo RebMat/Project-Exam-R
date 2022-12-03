@@ -15,7 +15,7 @@ function getRecipeList() {
         data.meals.forEach((meal) => {
           html += `
           <div class="recipe-card">
-            <div class="meal-img">
+            <div class="recipe-img">
              <img src="${meal.strMealThumb}" alt="food" />
             </div>
             <h3 class="recipe-name">${meal.strMeal}</h3>

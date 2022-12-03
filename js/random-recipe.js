@@ -15,7 +15,7 @@ async function getRandomRecipe() {
     recipeContainer.innerHTML += `
     <h2 class="receip-headline">Check out this ${getResults.meals[0].strArea} recipe:</h2>
     <div class="recipe-card">
-      <div class="meal-img">
+      <div class="recipe-img">
        <img src="${getResults.meals[0].strMealThumb}" alt="food" />
       </div>
       <h3 class="recipe-name">${getResults.meals[0].strMeal}</h3>
