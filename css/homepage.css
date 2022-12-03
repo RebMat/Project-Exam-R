@@ -44,13 +44,17 @@
   letter-spacing: 0.5;
 }
 
+.hp-text1 p {
+  width: max-content;
+}
+
 .hp-text1 p,
 .hp-text2 p {
   font-size: 24px;
 }
 
 .hp-text2 p {
-  width: 268px;
+  width: 297px;
 }
 
 .hp-text2 a {
@@ -306,4 +310,9 @@
   }
 }
 
-/* @media screen and (max-width: 428px); */
+@media screen and (max-width: 428px) {
+  .hp-text2 p {
+    width: fit-content;
+    text-align: center;
+  }
+}

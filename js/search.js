@@ -24,7 +24,7 @@ function getRecipeList() {
                 `;
         });
       } else {
-        html = "There is no meal with that ingredient in our database.";
+        html = `<p class="not-found">There is no meal with that ingredient in our database</p>`;
       }
 
       recipeList.innerHTML = html;
