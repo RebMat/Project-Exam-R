@@ -4,11 +4,12 @@
 @import url(contact.css);
 @import url(search.css);
 @import url(loader.css);
+@import url(bevellier.css);
 
-@font-face {
-  font-family: bevellier;
+/* @font-face {
+  font-family: "bevellier";
   src: url(../font/Bevellier-Bold.ttf), url(../font/Bevellier-Medium.ttf), url(../font/Bevellier-Semibold.ttf);
-}
+} */
 
 /* Global Styles */
 
@@ -35,7 +36,7 @@ main {
 h1,
 h2,
 h3 {
-  font-family: "bevellier", Verdana, Geneva, Tahoma, sans-serif;
+  font-family: "Bevellier-Semibold", Verdana, Geneva, Tahoma, sans-serif;
   color: #f25430;
   font-weight: 500;
 }
