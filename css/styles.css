@@ -7,7 +7,7 @@
 
 @font-face {
   font-family: Bevellier;
-  src: url(/font/Bevellier-Bold.ttf), url(/font/Bevellier-Medium.ttf), url(/font/Bevellier-Semibold.ttf);
+  src: url(../font/Bevellier-Bold.ttf), url(../font/Bevellier-Medium.ttf), url(../font/Bevellier-Semibold.ttf);
 }
 
 /* Global Styles */
