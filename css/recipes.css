@@ -5,7 +5,7 @@
   grid-template-columns: 1fr 1fr;
 }
 
-.recipe-card-name {
+.recipe-name {
   font-family: "Bevellier-Semibold", Verdana, Geneva, Tahoma, sans-serif;
   color: #f25430;
   font-weight: 500;
@@ -17,9 +17,9 @@
   justify-self: center;
   margin: 45px 0 30px 0;
   font-size: 40px;
-  font-family: "Bevellier-Semibold", Verdana, Geneva, Tahoma, sans-serif;
+  /* font-family: "Bevellier-Semibold", Verdana, Geneva, Tahoma, sans-serif;
   color: #f25430;
-  font-weight: 500;
+  font-weight: 500; */
   font-size: 40px;
 }
 
