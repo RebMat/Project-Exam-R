@@ -1,9 +1,17 @@
 // Search Recipes
 
+let input = document.querySelector(".search-box");
 const searchButton = document.querySelector("#search-button");
 const recipeList = document.querySelector("#recipes");
 
 searchButton.addEventListener("click", getRecipeList);
+
+input.addEventListener("keyup", function (event) {
+  if (event.keyCode === 13) {
+    event.preventDefault();
+    document.getElementById("search-button").click();
+  }
+});
 
 function getRecipeList() {
   let ingredientInputText = document.querySelector("#ingredient-input").value.trim();
@@ -16,7 +24,7 @@ function getRecipeList() {
           html += `
           <div class="recipe-card">
             <div class="recipe-img">
-             <img src="${meal.strMealThumb}" alt="food" />
+             <img src="${meal.strMealThumb}" alt="${meal.strMeal}" />
             </div>
             <h3 class="recipe-name">${meal.strMeal}</h3>
             <a href="recipes-specific.html?id=${meal.idMeal}">View Recipe</a>

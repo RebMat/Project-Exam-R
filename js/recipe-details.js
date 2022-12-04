@@ -24,7 +24,7 @@ async function getRecipe() {
     recipeContainer.innerHTML += `
     <h1 class="recipe-name">${recipeDetails.meals[0].strMeal}</h1>
     <div class="recipe-img-specific">
-      <img src="${recipeDetails.meals[0].strMealThumb}" alt="food" />
+      <img src="${recipeDetails.meals[0].strMealThumb}" alt="${recipeDetails.meals[0].strMeal}" />
     </div>
     <div class="ingredients-container">
       <h2>Ingredients:</h2>
