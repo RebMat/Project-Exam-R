@@ -26,7 +26,7 @@ function getRecipeList() {
             <div class="recipe-img">
              <img src="${meal.strMealThumb}" alt="${meal.strMeal}" />
             </div>
-            <h3 class="recipe-name">${meal.strMeal}</h3>
+            <h3 class="recipe-card-name">${meal.strMeal}</h3>
             <a href="recipes-specific.html?id=${meal.idMeal}">View Recipe</a>
           </div>
                 `;

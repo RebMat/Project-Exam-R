@@ -18,7 +18,7 @@ async function getRandomRecipe() {
       <div class="recipe-img">
        <img src="${getResults.meals[0].strMealThumb}" alt="${getResults.meals[0].strMeal}" />
       </div>
-      <h3 class="recipe-name">${getResults.meals[0].strMeal}</h3>
+      <h3 class="recipe-card-name">${getResults.meals[0].strMeal}</h3>
       <a href="recipes-specific.html?id=${getResults.meals[0].idMeal}">View Recipe</a>
     </div>
     `;

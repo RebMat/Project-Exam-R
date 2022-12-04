@@ -5,9 +5,11 @@
   grid-template-columns: 1fr 1fr;
 }
 
-/* .recipe-info h1 {
-
-} */
+.recipe-card-name {
+  font-family: "Bevellier-Semibold", Verdana, Geneva, Tahoma, sans-serif;
+  color: #f25430;
+  font-weight: 500;
+}
 
 .main-recipe-specific h1 {
   grid-row: 1;
