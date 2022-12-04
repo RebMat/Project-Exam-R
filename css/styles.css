@@ -6,7 +6,7 @@
 @import url(loader.css);
 
 @font-face {
-  font-family: Bevellier;
+  font-family: bevellier;
   src: url(../font/Bevellier-Bold.ttf), url(../font/Bevellier-Medium.ttf), url(../font/Bevellier-Semibold.ttf);
 }
 
@@ -35,7 +35,7 @@ main {
 h1,
 h2,
 h3 {
-  font-family: "Bevellier", Verdana, Geneva, Tahoma, sans-serif;
+  font-family: "bevellier", Verdana, Geneva, Tahoma, sans-serif;
   color: #f25430;
   font-weight: 500;
 }
