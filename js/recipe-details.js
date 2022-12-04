@@ -44,6 +44,11 @@ async function getRecipe() {
       <p class="measure">${recipeDetails.meals[0].strMeasure13}</p>
       <p class="measure">${recipeDetails.meals[0].strMeasure14}</p>
       <p class="measure">${recipeDetails.meals[0].strMeasure15}</p>
+      <p class="measure">${recipeDetails.meals[0].strMeasure16}</p>
+      <p class="measure">${recipeDetails.meals[0].strMeasure17}</p>
+      <p class="measure">${recipeDetails.meals[0].strMeasure18}</p>
+      <p class="measure">${recipeDetails.meals[0].strMeasure19}</p>
+      <p class="measure">${recipeDetails.meals[0].strMeasure20}</p>
      </div>
      <div class="ingredients">
       <p class="ingredient">${recipeDetails.meals[0].strIngredient1}</p>
@@ -61,6 +66,11 @@ async function getRecipe() {
       <p class="ingredient">${recipeDetails.meals[0].strIngredient13}</p>
       <p class="ingredient">${recipeDetails.meals[0].strIngredient14}</p>
       <p class="ingredient">${recipeDetails.meals[0].strIngredient15}</p>
+      <p class="ingredient">${recipeDetails.meals[0].strIngredient16}</p>
+      <p class="ingredient">${recipeDetails.meals[0].strIngredient17}</p>
+      <p class="ingredient">${recipeDetails.meals[0].strIngredient18}</p>
+      <p class="ingredient">${recipeDetails.meals[0].strIngredient19}</p>
+      <p class="ingredient">${recipeDetails.meals[0].strIngredient20}</p>
 
      </div>
     </div>

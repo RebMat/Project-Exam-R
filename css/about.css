@@ -1,0 +1,44 @@
+.main-about-us {
+  min-height: 80vh;
+  display: grid;
+  grid-template-rows: auto 1fr;
+  margin-bottom: 40px;
+}
+
+.main-about-us h1 {
+  justify-self: center;
+  margin: 30px 0;
+  font-size: 40px;
+}
+
+.about-us-text {
+  background-color: white;
+  width: 600px;
+  justify-self: center;
+  border-radius: 5%;
+  display: grid;
+  align-content: center;
+}
+
+.about-us-text h2 {
+  justify-self: center;
+  margin-top: 15px;
+}
+
+.about-us-text p {
+  margin: 20px;
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+
+@media screen and (max-width: 650px) {
+  .about-us-text {
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .about-us-text {
+    width: 300px;
+  }
+}

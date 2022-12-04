@@ -169,13 +169,27 @@ textarea::placeholder {
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 480px) {
   .main-contact {
     margin: 50px 15px 30px 15px;
+  }
+
+  .contact-section1 {
+    width: 290px;
+  }
+
+  .contact-section2 {
+    width: 290px;
   }
 
   .contact-information-box h1 {
     font-size: 17px;
     margin-bottom: 15px;
+  }
+
+  #fullname,
+  #email,
+  #subject {
+    width: unset;
   }
 }
