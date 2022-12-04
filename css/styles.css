@@ -35,7 +35,7 @@ main {
 h1,
 h2,
 h3 {
-  font-family: Bevellier, Verdana, Geneva, Tahoma, sans-serif;
+  font-family: "Bevellier", Verdana, Geneva, Tahoma, sans-serif;
   color: #f25430;
   font-weight: 500;
 }
