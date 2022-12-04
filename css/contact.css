@@ -171,7 +171,7 @@ textarea::placeholder {
 
 @media (max-width: 480px) {
   .main-contact {
-    margin: 50px 15px 30px 15px;
+    margin: 50px auto;
   }
 
   .contact-section1 {
@@ -183,7 +183,7 @@ textarea::placeholder {
   }
 
   .contact-information-box h1 {
-    font-size: 17px;
+    font-size: 15px;
     margin-bottom: 15px;
   }
 
