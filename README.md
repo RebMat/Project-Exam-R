@@ -32,7 +32,7 @@ The site must contain:
 Clone the repo:
 
 ```bash
-https://github.com/RebMat/Project-Exam-Resit.git
+https://github.com/RebMat/Project-Exam-R.git
 ```
 
 ### Running 
